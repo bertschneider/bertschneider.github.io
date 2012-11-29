@@ -1,0 +1,24 @@
+---
+layout: post
+title: oh-my-zsh
+tags: shell, zsh, oh-my-zsh
+---
+
+# oh-my-zsh
+
+I few days ago I stumbled upon
+[oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh). It's a
+collection of scripts, plugins and themes to manage and extend the
+[zsh](http://www.zsh.org/) shell.
+
+I am not a shell ninja, nevertheless I like a good shell configuration
+and [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) is really
+great in this sense.
+
+The plugins and themes are especially noteworthy. Have a look at the
+next screenshot. It shows a really informative prompt and the git
+status from the current directory.
+
+![screenshot](/images/oh-my-zsh-screenshot.png)
+
+

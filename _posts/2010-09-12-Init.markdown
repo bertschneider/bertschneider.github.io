@@ -1,0 +1,30 @@
+---
+layout: post
+title: Init() or how it all began
+tags: static Clojure bldg
+---
+
+# Init() or how it all began
+
+Generally I don't like blogging very much. I like blogs, don't get me
+wrong, but I never really got into blogging myself. I can't help
+it but recently I decided to give it _another_ try.
+
+On the other hand I like [Clojure](http://www.clojure.org) very much and in the last few
+weeks my Wordpress installation, although never used very much, filled up my whole
+webspace. So a decision was made ... Clojure-Blogging to the rescue.
+
+Like you can guess this is my first blog post using the solution. I
+switched to [static](http://github.com/nakkaya/static). Like the name
+suggests it is a static site generator written in Clojure by [Nurullah
+Akkaya](http://twitter.com/nakkaya).
+
+Well, I still have to get used to this kind of blogging. But as far as
+I can tell from my first few tests I really like it!
+
+Most of the design is still by [Nurullah
+Akkaya](http://twitter.com/nakkaya) and can be found at [GitHub](http://github.com/nakkaya/nakkaya.com).
+
+So stay tuned and _don't Panic!_
+
+

@@ -1,0 +1,14 @@
+---
+layout: post
+title: There shall be comments
+tags: blog
+---
+
+# There shall be comments
+
+I had to look around pretty much to find a good commenting
+system. Finally I decided to use [disqus](http://disqus.com/).
+Have fun commenting the posts.
+
+
+
