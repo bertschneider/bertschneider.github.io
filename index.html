@@ -5,7 +5,7 @@ site_section: frontpage blog
 ---
 
 {% for post in site.posts limit:1 %}
-  <div class="post">
+  <div class="article">
     <article>
       <p class="post-date">Posted on {{ post.date | date: "%Y/%m/%d" }}</a></p>
       {{ post.content }}

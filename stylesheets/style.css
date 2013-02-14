@@ -285,11 +285,11 @@ header[role="banner"] {
 }	
 
 
-body.frontpage #main {
-	float: left;
-	width: 68%;
-	margin-right: 5%;
-}
+/* body.frontpage #main { */
+/* 	float: left; */
+/* 	width: 68%; */
+/* 	margin-right: 5%; */
+/* } */
 
 body.frontpage .about-teaser p {
 	font-size: 0.9em;
@@ -339,6 +339,7 @@ article {}
 }	
 
 #container footer {
+    font-size: 80%;
 	clear: both;
 	padding: 32px;
 	margin: 0 auto;
@@ -778,3 +779,12 @@ video {
   h2, h3{ page-break-after: avoid; }
 }
 
+img {
+    /* margin-bottom: 1em; */
+    /* padding: 0 0 .5em; */
+    border: 7px solid #e8e8e8; 
+}
+
+footer a img {
+    border: 0px;
+}
