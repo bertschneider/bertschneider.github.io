@@ -13,6 +13,9 @@ find the posts interesting.
 
 You can reach me at Norbert-Schneider<@>gmx.de
 
+My PGP key can be found [here on the page](../resources/key.txt) or on the normal key servers.
+
+
 ![Norbert Schneider](/images/norbertschneider.jpg)
 
 #### Other Places I am at
