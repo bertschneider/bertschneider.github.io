@@ -81,7 +81,7 @@ solution.
 ## Conclusion
 
 This little example demonstrates once again how powerful Lisp /
-Clojure and Macros can be. And don't forget to read
+Clojure and macros can be. And don't forget to read
 [SICP](http://www.amazon.de/gp/product/0262011530/ref=as_li_ss_tl?ie=UTF8&tag=herrnorbertde-21&linkCode=as2&camp=1638&creative=19454&creativeASIN=0262011530).
 
 
