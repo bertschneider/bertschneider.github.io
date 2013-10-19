@@ -13,13 +13,13 @@ find the posts interesting.
 
 You can reach me at Norbert-Schneider<@>gmx.de
 
-My PGP key can be found [here on the page](../resources/key.txt) or on the normal key servers.
-
+My PGP key can be found [here on the page](../resources/key.txt) or on the usual key servers.
 
 ![Norbert Schneider](/images/norbertschneider.jpg)
 
 #### Other Places I am at
 
- - [Xing](https://www.xing.com/profile/Norbert_Schneider16)
- - [GitHub](http://github.com/Norrit)
  - [Twitter](http://twitter.com/bertschneider)
+ - [GitHub](http://github.com/bertschneider)
+ - [Goodreads](https://www.goodreads.com/Norrit)
+ - [Xing](https://www.xing.com/profile/Norbert_Schneider16)
