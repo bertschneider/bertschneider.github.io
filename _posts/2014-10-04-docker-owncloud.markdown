@@ -130,7 +130,13 @@ In the next step `nginx` and `PHP` configuration files are added. The files are 
 
 In the last part `supervisor` is configured and set as command for docker to run on startup of the container. Docker runs _only_ one command, so if one only starts `nginx` the `PHP` service will not be available (this obvious constraint took me some time to figure out). To overcome this *limitation* `supervisor` is used to start both `nginx` and the `PHP` service.
 
-This container contains everything needed to run OwnCloud but as mentioned earlier the use of a full-blown database is recommended. So read on ...
+To build an image from this `Dockerfile` use the following command:
+
+{% highlight nasm %}
+docker build -t owncloud-nginx .
+{% endhighlight %}
+
+This image contains everything needed to run OwnCloud but as mentioned earlier the use of a full-blown database is recommended. So read on ...
 
 ## owncloud-postgres-data
 
