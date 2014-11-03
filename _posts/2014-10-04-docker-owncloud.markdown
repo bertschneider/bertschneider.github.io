@@ -72,7 +72,7 @@ Docker just prints the `echo` statement and exits immediately but to do so it al
 
 ## owncloud-nginx
 
-To serve the OwnCloud application a webserver is needed. Like I sad earlier I had some problems with the official `nginx` container so I created my own.
+To serve the OwnCloud application a webserver is needed. Like I said earlier I had some problems with the official `nginx` container so I created my own.
 
 {% highlight nasm %}
 # OwnCloud -  nginx
