@@ -6,6 +6,9 @@ tags: owncloud docker volume nginx fpm
 
 # OwnCloud in a container
 
+> *UPDATE:*
+> As [dinkel][100] pointed out in a [GitHub issue][101] `PHP` only allowed file uploads of maximum 2MB by the web interface. To work around this restriction `PHP.ini` had to be updated.
+
 Quite some time, and especially since the NSA disclosures, I wanted to run my own file syncing service. So when I lately toyed around with [DigitalOcean][1], [coreos][2] and [docker][3] the idea got prominent again and I set out to use all these hipster tools to install and run my own [OwnCloud][4].
 
 This is no introduction to the tools but rather a guide on how to install OwnCloud in the given environment. So some knowledge is expected.
@@ -96,6 +99,12 @@ ADD ssl.crt /etc/ssl/nginx/ssl.crt
 ADD ssl.key /etc/ssl/nginx/ssl.key
 ADD nginx.conf /etc/nginx/nginx.conf
 
+# Configure php
+
+RUN sed -i -e "s/^upload_max_filesize\s*=\s*2M/upload_max_filesize = 16G/" /etc/php5/fpm/php.ini
+RUN sed -i -e "s/^post_max_size\s*=\s*8M/post_max_size = 16G/" /etc/php5/fpm/php.ini
+RUN sed -i -e "s/^output_buffering\s*=\s*4096/output_buffering = 0/" /etc/php5/fpm/php.ini
+
 # Configure php-fpm
 
 ADD www.conf /etc/php5/fpm/pool.d/www.conf
@@ -117,7 +126,7 @@ After that `curl` downloads the OwnCloud tar and extracts the content into `/var
 
 Then a self-signed `SSL` key is added to the image. Just take a look at [one][7] of the many tutorials if you need to generate one.
 
-In the next step `nginx` and `PHP` configuration files are added. The files are basically the provided ones from the [OwnCloud documentation][8] and the whole content can be found on [GitHub][9]. They ensure that `nginx` uses `SSL` and can talk to the `PHP` service. Furthermore I like to have config files outside of the containers.
+In the next step `nginx` and `PHP` configuration files are added. The files are basically the provided ones from the [OwnCloud documentation][8] and the whole content can be found on [GitHub][9]. They ensure that `nginx` uses `SSL` and can talk to the `PHP` service.
 
 In the last part `supervisor` is configured and set as command for docker to run on startup of the container. Docker runs _only_ one command, so if one only starts `nginx` the `PHP` service will not be available (this obvious constraint took me some time to figure out). To overcome this *limitation* `supervisor` is used to start both `nginx` and the `PHP` service.
 
@@ -174,3 +183,5 @@ It is not so hard to run your own OwnCloud especially when key infrastructure co
 [10]: https://registry.hub.docker.com/_/postgres/
 [11]: https://coreos.com/using-coreos/systemd/
 [12]: https://docs.docker.com/userguide/dockervolumes/#volume-def
+[100]: https://github.com/dinkel
+[101]: https://github.com/bertschneider/docker-owncloud/issues/1
