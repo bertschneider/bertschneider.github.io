@@ -2,6 +2,7 @@
 layout: default
 title : About
 site_section: about
+permalink: /about/
 ---
 
 # About the author
@@ -19,6 +20,7 @@ My PGP key can be found [here on the page](../resources/key.txt) or on the usual
 
 #### Other Places I am at
 
+ - [keybase.io](https://keybase.io/bertschneider)
  - [Twitter](http://twitter.com/bertschneider)
  - [GitHub](http://github.com/bertschneider)
  - [Goodreads](https://www.goodreads.com/Norrit)

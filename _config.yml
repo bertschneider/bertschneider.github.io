@@ -1,14 +1,32 @@
-safe:        false
+# Site settings
+title:       herr-norbert.de
+email:       mail@herr-norbert.de
+author:      Norbert Schneider
+description: "Some random rants."
+baseurl:     ""
+url:         "http://www.herr-norbert.de"
 
 source:      .
 destination: ./_site
 plugins:     ./_plugins
 
-future:      true
-lsi:         false
-highlighter: pygments
-markdown:    kramdown
-permalink:   /:year/:month/:day/:title/
+# Google analytics
+google_analytics: UA-18680396-1
+
+# Optional features
+animated:           true
+show_related_posts: false
+show_post_footers:  false
+
+# Social icons
+show_social_icons: true
+github_username:   bertschneider
+twitter_username:  bertschneider
+google_plus_id:
+linkedin_username:
+bitcoin_url:
+paypal_url:
+flattr_button:
 
 maruku:
   use_tex:    false
@@ -16,3 +34,12 @@ maruku:
   png_engine: blahtex
   png_dir:    images/latex
   png_url:    /images/latex
+
+# Build settings
+permalink:    /:year/:month/:day/:title/
+highlighter:  pygments
+markdown:     kramdown
+permalink:    pretty
+paginate:     5
+sass:
+compressed:   true
