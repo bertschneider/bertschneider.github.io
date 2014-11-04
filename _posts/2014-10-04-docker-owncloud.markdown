@@ -1,10 +1,10 @@
 ---
 layout: post
 title: OwnCloud in a container
+summary: ... or how to dump Dropbox
+categories: docker owncloud
 tags: owncloud docker volume nginx fpm
 ---
-
-# OwnCloud in a container
 
 > *UPDATE:*
 > As [dinkel][100] pointed out in a [GitHub issue][101] `PHP` only allowed file uploads of maximum 2MB by the web interface. To work around this restriction `PHP.ini` had to be updated.

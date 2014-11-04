@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Permutations Baby
+summary: ... or how to generate all permutations of a given set af values.
+categories: clojure permutations 
 tags: Clojure Permutations
 ---
-
-# Permutations Baby
 
 A few weeks ago a colleague asked if I knew a nice method to generate
 permutations of a given set of values. I didn't know one but once

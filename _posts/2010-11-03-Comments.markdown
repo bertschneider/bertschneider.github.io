@@ -1,10 +1,10 @@
 ---
 layout: post
 title: There shall be comments
+summary: ... or how to comment on blog posts
+categories: blog
 tags: blog
 ---
-
-# There shall be comments
 
 I had to look around pretty much to find a good commenting
 system. Finally I decided to use [disqus](http://disqus.com/).

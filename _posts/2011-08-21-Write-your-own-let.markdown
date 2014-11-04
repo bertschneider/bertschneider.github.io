@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Write your own let
+summary: ... or how to build your own stuff
+categories: clojure macro
 tags: Clojure Macro
 ---
-
-# Write your own let
 
 I am currently reading [Structure and Interpretation of Computer
 Programs](http://www.amazon.de/gp/product/0262011530/ref=as_li_ss_tl?ie=UTF8&tag=herrnorbertde-21&linkCode=as2&camp=1638&creative=19454&creativeASIN=0262011530)

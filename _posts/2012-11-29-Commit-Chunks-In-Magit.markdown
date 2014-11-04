@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Commit Chunks in Magit
+summary: ... or how to use a great git client
+categories: git magit emacs chunks commit
 tags: git magit emacs chunks commit
 ---
-
-# Commit Chunks in Magit
 
 A few days back I found a nice little feature in the 
 [Emacs](http://www.gnu.org/software/emacs/)

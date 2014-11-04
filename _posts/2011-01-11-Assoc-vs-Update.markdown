@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Assoc vs. Assoc-in vs. Update-in
+summary: ... or which one to user
+categories: clojure performance
 tags: Clojure Performance
 ---
-
-# Assoc vs. Assoc-in vs. Update-in
 
 Currently I am fighting some performance issues in Clojure. While I
 was looking out for some tips I came across the somewhat famous blog post [Clojure

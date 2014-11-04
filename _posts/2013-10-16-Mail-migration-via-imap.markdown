@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Migrating emails
+summary: ... or how to use your own stuff
+categories: imap mail email migration gmail offlineimap linux
 tags: imap mail email migration gmail offlineimap linux
 ---
-
-# Migrating emails
 
 A few days back I decided to change my mail provider from [Gmail](https://mail.google.com) to a local (German) one. Naturally I wanted to take my old mail with me.
 
@@ -21,7 +21,6 @@ There are a few specialities:
 *   Server fingerprints are stored in the config file: When you run `offlineimap` it will tell you that it doesn't know the server and show you its fingerprint. Verify and add it to the config file.
 *   Don't touch Gmail: `readonly=True`
 *   Blinkenlights UI: Nice ASCII art
-
 
 {% highlight ini %}
 [general]

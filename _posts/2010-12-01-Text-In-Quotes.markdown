@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Text in Quotes
+summary: ... or how to quote in Clojure
+categories: clojure
 tags: Clojure
 ---
-
-# Text in Quotes
 
 In the last few days I am wandering in the [Land of
 Lisp](http://www.amazon.de/Land-Lisp-Learn-Program-Game/dp/1593272812/)

@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Init() or how it all began
-tags: static Clojure bldg
+title: Init()
+summary: ... or how it all began
+categories: blog
+tags: static Clojure blog
 ---
-
-# Init() or how it all began
 
 Generally I don't like blogging very much. I like blogs, don't get me
 wrong, but I never really got into blogging myself. I can't help

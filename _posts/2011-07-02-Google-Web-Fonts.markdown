@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Google Web Fonts
-tags: webfonts, web fonts, fonts, web
+summary: ... or how to use a different font
+categories: webfonts fonts
+tags: webfonts fonts
 ---
-
-# Google Web Fonts
 
 I really like the idea of web fonts, so I wondered how the blog
 would look like with different fonts.

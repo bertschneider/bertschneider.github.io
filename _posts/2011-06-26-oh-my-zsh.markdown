@@ -1,10 +1,10 @@
 ---
 layout: post
 title: oh-my-zsh
-tags: shell, zsh, oh-my-zsh
+summary: ... or what a nice shell
+categories: shell zsh oh-my-zsh
+tags: shell zsh oh-my-zsh
 ---
-
-# oh-my-zsh
 
 I few days ago I stumbled upon
 [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh). It's a
