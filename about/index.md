@@ -20,8 +20,8 @@ My PGP key can be found [here on the page](../resources/key.txt) or on the usual
 
 #### Other Places I am at
 
- - [keybase.io](https://keybase.io/bertschneider)
- - [Twitter](http://twitter.com/bertschneider)
- - [GitHub](http://github.com/bertschneider)
- - [Goodreads](https://www.goodreads.com/Norrit)
- - [Xing](https://www.xing.com/profile/Norbert_Schneider16)
+ - [__keybase.io__/bertschneider](https://keybase.io/bertschneider)
+ - [__twitter.com__/bertschneider](http://twitter.com/bertschneider)
+ - [__github.com__/bertschneider](http://github.com/bertschneider)
+ - [__goodreads.com__/bertschneider](https://www.goodreads.com/bertschneider)
+ - [__xing.com__/Norbert_Schneider](https://www.xing.com/profile/Norbert_Schneider16)
