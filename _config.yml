@@ -39,7 +39,6 @@ maruku:
 permalink:    /:year/:month/:day/:title/
 highlighter:  pygments
 markdown:     kramdown
-permalink:    pretty
 paginate:     5
 sass:
 compressed:   true
