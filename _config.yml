@@ -19,7 +19,7 @@ show_related_posts: false
 show_post_footers:  true
 
 # Social icons
-show_social_icons: true
+show_social_icons: false
 github_username:   bertschneider
 twitter_username:  bertschneider
 google_plus_id:
