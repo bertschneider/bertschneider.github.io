@@ -12,7 +12,7 @@ stuff I am working on during my quest to become a better person in
 general and a greater geek in particular. Hopefully some people will
 find the posts interesting.
 
-You can reach me at Norbert-Schneider<@>gmx.de
+You can reach me at mail@herr-norbert.de
 
 My PGP key can be found [here on the page](../resources/key.txt) or on the usual key servers.
 
