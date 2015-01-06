@@ -84,6 +84,9 @@ public class SomeServiceTest {
 
 {% endhighlight %}
 
+In conclusion this shows that a look into the source code of the used libraries and frameworks is always a good thing.
+You should know the tools you use and reading the source is a good and educational way to do so.
+
 [1]: https://logging.apache.org/log4j/2.x/manual/plugins.html
 [2]: https://code.google.com/p/mockito/
 
