@@ -52,6 +52,9 @@ public class LoggerTestUtils {
 {% endhighlight %}
 
 Please note that the original `LoggerRepository` has to be cached so that requests for other logger than the one to mock can still be fulfilled.
+
+This approach only works for newly requested logger. If you use, like one normally does, static logger fields, the logger are already created during the test execution and can not be mocked anymore. In this case you should mock the corresponding `appender`. 
+
 Also the logger will stay mocked for the whole run of the JVM but that should not be a problem in the tests runs.
 
 And here is how one would use the mock.
