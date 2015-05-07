@@ -7,11 +7,11 @@ site_section: impressum
 # Kontakt
 
 Norbert Schneider<br/>
-Burbachstra&szlig;e 45a<br/>
-51645 Gummersbach<br/>
+An der Waar 6<br/>
+51709 Marienheide<br/>
 
 Telefon: 02261/8070833<br/>
-E-Mail: Norbert-Schneider&lt;at&gt;gmx.de
+E-Mail: mail&lt;at&gt;bertschneider.de
 
 # Haftungsausschluss
 

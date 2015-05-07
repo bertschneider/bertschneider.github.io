@@ -1,10 +1,10 @@
 # Site settings
-title:       herr-norbert.de
-email:       mail@herr-norbert.de
+title:       bertschneider.de
+email:       mail@bertschneider.de
 author:      Norbert Schneider
 description: "Some random rants."
 baseurl:     ""
-url:         "http://www.herr-norbert.de"
+url:         "http://www.bertschneider.de"
 
 source:      .
 destination: ./_site
